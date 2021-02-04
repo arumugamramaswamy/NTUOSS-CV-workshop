@@ -8,8 +8,14 @@
 git clone https://github.com/arumugam666/NTUOSS-CV-workshop.git
 ```
 ### Step 2
+Windows:
 ```sh
-python -m pip install -r requirements.txt
+cd NTUOSS-CV-workshop; python -m venv workshop-env; .\workshop-env\Scripts\activate; python -m pip install -r requirements.txt
+```
+
+Mac/ Linux:
+```sh
+cd NTUOSS-CV-workshop; python3 -m venv workshop-env; source workshop-env/bin/activate; python3 -m pip install -r requirements.txt
 ```
 ## Loading, Displaying and Writing images
 
