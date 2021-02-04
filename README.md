@@ -1,4 +1,5 @@
 # NTUOSS TGIFHacks CV Workshop
+![Poster](Images/Poster.jpeg)
 ## Goal
 Implement the vision pipeline for a line following Robot.
 
@@ -98,7 +99,7 @@ masked_img = img * np.dstack((blue_mask, blue_mask, blue_mask)
 
 Before we can extract any information from the image about the line to follow, we must first preprocess the image.
 
-We will do so by converting the masked image to a grayscale image and then apply a fixed gray level threshold.
+We will do so by converting the masked image to a grayscale image and then applying a fixed gray level threshold.
 
 The results of this thresholding can then be used in contour detection.
 
